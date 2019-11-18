@@ -7,8 +7,4 @@ use Shopware\Storefront\Framework\ThemeInterface;
 
 class ExampleConfigTheme extends Plugin implements ThemeInterface
 {
-    public function getThemeConfigPath(): string
-    {
-        return 'theme.json';
-    }
 }
