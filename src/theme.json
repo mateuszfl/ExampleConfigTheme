@@ -1,0 +1,30 @@
+{
+  "name": "ExampleConfigTheme",
+  "author": "Shopware AG",
+  "style": [
+    "@Storefront",
+    "Resources/storefront/style/base.scss"
+  ],
+  "script": [
+    "@Storefront",
+    "Resources/storefront/dist/script/all.js"
+  ],
+  "asset": [
+    "Resources/storefront/asset"
+  ],
+    "config": {
+        "fields": {
+            "sw-color-brand-primary": {
+                "label": {
+                    "en-GB": "Primary",
+                    "de-DE": "Primär"
+                },
+                "type": "color",
+                "value": "#399",
+                "editable": true,
+                "block": "colors",
+                "section": "generalColors"
+            }
+        }
+    }
+}
