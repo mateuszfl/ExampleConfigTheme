@@ -13,17 +13,33 @@
     "storefront/asset"
   ],
     "config": {
-        "fields": {
-            "sw-color-brand-primary": {
+        "blocks": {
+            "customColorsBlock": {
                 "label": {
-                    "en-GB": "Primary",
-                    "de-DE": "Primär"
+                    "en-GB": "Custom Colors",
+                    "de-DE": "Custom Colors"
+                }
+            }
+        },
+        "sections": {
+            "customColorsSection": {
+                "label": {
+                    "en-GB": "Custom colors",
+                    "de-DE": "Custom colors"
+                }
+            }
+        },
+        "fields": {
+            "custom-color-test": {
+                "label": {
+                    "en-GB": "Custom Color",
+                    "de-DE": "Custom Color"
                 },
                 "type": "color",
                 "value": "#399",
                 "editable": true,
-                "block": "colors",
-                "section": "generalColors"
+                "block": "customColorsBlock",
+                "section": "customColorsSection"
             }
         }
     }
