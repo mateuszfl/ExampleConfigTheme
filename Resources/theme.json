@@ -3,14 +3,14 @@
   "author": "Shopware AG",
   "style": [
     "@Storefront",
-    "Resources/storefront/style/base.scss"
+    "storefront/style/base.scss"
   ],
   "script": [
     "@Storefront",
-    "Resources/storefront/dist/script/all.js"
+    "storefront/dist/script/all.js"
   ],
   "asset": [
-    "Resources/storefront/asset"
+    "storefront/asset"
   ],
     "config": {
         "fields": {
